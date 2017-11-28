@@ -27,14 +27,14 @@
         android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/adress"
         android:layout_alignStart="@+id/adress"
-        android:layout_toLeftOf="@id/name"
         android:layout_marginBottom="32dp"
-        android:src="@drawable/building"
-        android:id="@+id/imageView" />
+        android:layout_toLeftOf="@id/name"
+        android:src="@drawable/building" />
 
     <TextView
         android:id="@+id/phone"
@@ -44,7 +44,7 @@
         android:layout_below="@+id/name"
         android:fontFamily="sans-serif-condensed"
         android:padding="5dp"
-        android:paddingRight="5dp"
+        android:paddingRight="10dp"
         android:text="650-555-5555"
         android:textColor="#1A237E"
         android:textSize="20sp"
@@ -85,19 +85,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/adress"
+        android:layout_marginRight="5dp"
         android:fontFamily="sans-serif-condensed"
         android:padding="5dp"
-        android:layout_marginRight="5dp"
-        android:text="2465 Latham St. Montain View, CA94043"
-        android:textSize="18sp"
+        android:text="2465 Latham St. Montain View, CA 94043"
         android:textColor="#1A237E"
+        android:textSize="18sp"
         android:textStyle="bold"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/location"
-        android:layout_marginEnd="20dp"
         android:layout_toStartOf="@+id/location"
         android:src="@drawable/house1" />
 
